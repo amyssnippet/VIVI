@@ -4,6 +4,14 @@ set -e
 echo "Installing Ollama ..."
 curl -fsSl https://ollama.com/install.sh | sh
 echo "Installed Ollama"
+echo "Starting Ollama server..."
+ollama serve >/dev/null 2>&1 &
+sleep 5
+until curl -s http://127.0.0.1:11434/api/tags >/dev/null; do
+  echo "Waiting for Ollama to be ready..."
+  sleep 2
+done
+echo "Ollama server is ready!"
 echo "Downloading Chat Base Model Architecture ..."
 ollama run qwen3 --verbose <<< "exit"
 echo "Downloaded Chat Base Model Architecture"
