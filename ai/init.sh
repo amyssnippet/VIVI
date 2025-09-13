@@ -8,15 +8,14 @@ YELLOW="\033[1;33m"
 RESET="\033[0m"
 
 banner() {
-  echo -e "\033[1;32m"
+  echo -e "${GREEN}"
   echo "██    ██ ██ ██    ██ ██ "
   echo "██    ██ ██ ██    ██ ██ "
   echo "██    ██ ██ ██    ██ ██ "
   echo " ██  ██  ██  ██  ██  ██ "
   echo "  ████   ██   ████   ██ "
-  echo -e "\033[0m"
+  echo -e "${RESET}"
 }
-
 
 section() {
   echo -e "${CYAN}\n[== $1 ==]${RESET}"
@@ -42,12 +41,14 @@ done
 echo -e "${GREEN}Ollama Server is Ready${RESET}"
 
 section "Downloading Chat Base Model Architecture"
-ollama run qwen3 --verbose <<< "exit"
+ollama pull qwen3
 echo -e "${GREEN}Chat Base Model Architecture Downloaded${RESET}"
 
+
 section "Downloading Vision Model Architecture"
-ollama run qwen2.5vl --verbose <<< "exit"
+ollama pull qwen2.5vl
 echo -e "${GREEN}Vision Model Architecture Downloaded${RESET}"
+
 
 section "Preparing Dataset for vivi LLM"
 cat > Modelfile <<EOF
@@ -73,6 +74,10 @@ You are VIVI VL, a document parser model developed for VIVI Enterprises to serve
 """
 EOF
 echo -e "${GREEN}Dataset Prepared${RESET}"
+ollama rm qwen2.5vl
+echo -e "${YELLOW}Deleted qwen2.5vl to free space${RESET}"
+ollama rm qwen3
+echo -e "${YELLOW}Deleted qwen3 to free space${RESET}"
 
 section "Training vivi-vl LLM"
 ollama create vivi-vl -f ./Modelfile
