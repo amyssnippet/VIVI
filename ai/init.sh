@@ -44,11 +44,9 @@ section "Downloading Chat Base Model Architecture"
 ollama pull qwen3
 echo -e "${GREEN}Chat Base Model Architecture Downloaded${RESET}"
 
-
 section "Downloading Vision Model Architecture"
 ollama pull qwen2.5vl
 echo -e "${GREEN}Vision Model Architecture Downloaded${RESET}"
-
 
 section "Preparing Dataset for vivi LLM"
 cat > Modelfile <<EOF
@@ -74,15 +72,17 @@ You are VIVI VL, a document parser model developed for VIVI Enterprises to serve
 """
 EOF
 echo -e "${GREEN}Dataset Prepared${RESET}"
-ollama rm qwen2.5vl
-echo -e "${YELLOW}Deleted qwen2.5vl to free space${RESET}"
-ollama rm qwen3
-echo -e "${YELLOW}Deleted qwen3 to free space${RESET}"
 
 section "Training vivi-vl LLM"
 ollama create vivi-vl -f ./Modelfile
 rm Modelfile
 echo -e "${GREEN}vivi-vl Model Trained Successfully${RESET}"
+
+section "Cleaning Up Base Models"
+ollama rm qwen3
+echo -e "${YELLOW}Deleted qwen3 to free space${RESET}"
+ollama rm qwen2.5vl
+echo -e "${YELLOW}Deleted qwen2.5vl to free space${RESET}"
 
 section "AI Infrastructure Setup Complete"
 echo -e "${CYAN}>>> System Ready. All Models Trained. <<<${RESET}"
