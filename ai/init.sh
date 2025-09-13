@@ -2,42 +2,57 @@
 
 set -e
 
-echo "=================================================="
-echo "Installing Ollama ..."
-echo "=================================================="
-curl -fsSl https://ollama.com/install.sh | sh
-echo "Ollama Installed Successfully"
-echo
+GREEN="\033[1;32m"
+CYAN="\033[1;36m"
+YELLOW="\033[1;33m"
+RESET="\033[0m"
 
-echo "=================================================="
-echo "Starting Ollama Server ..."
-echo "=================================================="
+banner() {
+  echo -e "${GREEN}"
+  echo "=================================================="
+  echo "██    ██ ██ ██    ██ ██ "
+  echo "██    ██ ██ ██    ██ ██ "
+  echo "██    ██ ██ ██    ██ ██ "
+  echo " ██  ██  ██ ██    ██ ██ "
+  echo "  ████   ██  ██████  ██ "
+  echo "=================================================="
+  echo "               V I V I"
+  echo "=================================================="
+  echo -e "${RESET}"
+}
+
+section() {
+  echo -e "${CYAN}\n[== $1 ==]${RESET}"
+}
+
+progress() {
+  echo -ne "${YELLOW}$1...${RESET}\n"
+}
+
+banner
+
+section "Installing Ollama"
+curl -fsSl https://ollama.com/install.sh | sh
+echo -e "${GREEN}Ollama Installed Successfully${RESET}"
+
+section "Starting Ollama Server"
 ollama serve >/dev/null 2>&1 &
 sleep 5
 until curl -s http://127.0.0.1:11434/api/tags >/dev/null; do
-  echo "Waiting for Ollama to be ready..."
+  progress "Waiting for Ollama to be ready"
   sleep 2
 done
-echo "Ollama Server is Ready"
-echo
+echo -e "${GREEN}Ollama Server is Ready${RESET}"
 
-echo "=================================================="
-echo "Downloading Chat Base Model Architecture ..."
-echo "=================================================="
+section "Downloading Chat Base Model Architecture"
 ollama run qwen3 --verbose <<< "exit"
-echo "Chat Base Model Architecture Downloaded"
-echo
+echo -e "${GREEN}Chat Base Model Architecture Downloaded${RESET}"
 
-echo "=================================================="
-echo "Downloading Vision Model Architecture ..."
-echo "=================================================="
+section "Downloading Vision Model Architecture"
 ollama run qwen2.5vl --verbose <<< "exit"
-echo "Vision Model Architecture Downloaded"
-echo
+echo -e "${GREEN}Vision Model Architecture Downloaded${RESET}"
 
-echo "=================================================="
-echo "Preparing Dataset for vivi LLM ..."
-echo "=================================================="
+section "Preparing Dataset for vivi LLM"
 cat > Modelfile <<EOF
 FROM qwen3
 PARAMETER temperature 1
@@ -45,20 +60,14 @@ SYSTEM """
 You are VIVI, a chatbot developed for VIVI Enterprises to serve various businesses by creator Amol Yadav.
 """
 EOF
-echo "Dataset Prepared"
-echo
+echo -e "${GREEN}Dataset Prepared${RESET}"
 
-echo "=================================================="
-echo "Training vivi LLM ..."
-echo "=================================================="
+section "Training vivi LLM"
 ollama create vivi -f ./Modelfile
-echo "vivi Model Trained Successfully"
 rm Modelfile
-echo
+echo -e "${GREEN}vivi Model Trained Successfully${RESET}"
 
-echo "=================================================="
-echo "Preparing Dataset for vivi-vl ..."
-echo "=================================================="
+section "Preparing Dataset for vivi-vl"
 cat > Modelfile <<EOF
 FROM qwen2.5vl
 PARAMETER temperature 1
@@ -66,17 +75,12 @@ SYSTEM """
 You are VIVI VL, a document parser model developed for VIVI Enterprises to serve various businesses by creator Amol Yadav.
 """
 EOF
-echo "Dataset Prepared"
-echo
+echo -e "${GREEN}Dataset Prepared${RESET}"
 
-echo "=================================================="
-echo "Training vivi-vl LLM ..."
-echo "=================================================="
+section "Training vivi-vl LLM"
 ollama create vivi-vl -f ./Modelfile
-echo "vivi-vl Model Trained Successfully"
 rm Modelfile
-echo
+echo -e "${GREEN}vivi-vl Model Trained Successfully${RESET}"
 
-echo "=================================================="
-echo "AI Infrastructure Setup Successful"
-echo "=================================================="
+section "AI Infrastructure Setup Complete"
+echo -e "${CYAN}>>> System Ready. All Models Trained. <<<${RESET}"
