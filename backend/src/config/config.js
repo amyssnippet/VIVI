@@ -1,6 +1,6 @@
 module.exports = {
   jwtSecret: process.env.JWT_SECRET,
-  jwtExpire: process.env.JWT_EXPIRE || '7d',
+  jwtExpire: process.env.JWT_EXPIRE || '30d',
   ollamaBaseUrl: process.env.OLLAMA_BASE_URL || 'http://localhost:11434',
   uploadPath: './uploads',
   maxFileSize: 10 * 1024 * 1024, // 10MB

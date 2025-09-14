@@ -48,8 +48,10 @@ const SUPPORTED_LANGUAGES = [
 
 // AI Model Types
 const AI_MODELS = {
+  QWEN3_0_6B: 'qwen3:0.6b', // this is used everywhere
   QWEN3_8B: 'qwen3:8b',
   QWEN3_32B: 'qwen3:32b',
+  QWEN2_5_VL_3B: 'qwen2.5-vl:3b', //this is used everywhere
   QWEN2_5_VL_7B: 'qwen2.5-vl:7b',
   QWEN2_5_VL_72B: 'qwen2.5-vl:72b',
   NOMIC_EMBED: 'nomic-embed-text'

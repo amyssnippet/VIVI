@@ -1,6 +1,7 @@
 const axios = require('axios');
 const config = require('../config/config');
 const logger = require('../utils/logger');
+const AI_MODELS = require('../utils/constants')
 
 class OllamaService {
   constructor() {
@@ -8,7 +9,7 @@ class OllamaService {
     this.timeout = 30000; // 30 seconds
   }
 
-  async chat(messages, model = 'qwen3:8b', stream = false) {
+  async chat(messages, model = AI_MODELS.AI_MODELS.QWEN3_0_6B, stream = false) {
     try {
       const response = await axios.post(`${this.baseURL}/api/chat`, {
         model: model,
@@ -28,7 +29,7 @@ class OllamaService {
     }
   }
 
-  async processDocument(filePath, model = 'qwen2.5-vl:7b') {
+  async processDocument(filePath, model = AI_MODELS.AI_MODELS.QWEN2_5_VL_3B) {
     try {
       const fs = require('fs');
       const imageBase64 = fs.readFileSync(filePath, { encoding: 'base64' });

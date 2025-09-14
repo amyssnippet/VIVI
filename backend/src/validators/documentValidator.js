@@ -1,4 +1,5 @@
 const Joi = require('joi');
+const AI_MODELS = require('../utils/constants')
 
 const documentUploadValidator = Joi.object({
   language: Joi.string()
@@ -88,8 +89,8 @@ const chatValidator = Joi.object({
     }),
   
   model: Joi.string()
-    .valid('qwen3:8b', 'qwen3:32b', 'qwen2.5-vl:7b', 'qwen2.5-vl:72b')
-    .default('qwen3:8b')
+    .valid(AI_MODELS.AI_MODELS.QWEN3_0_6B, AI_MODELS.AI_MODELS.QWEN3_8B, AI_MODELS.AI_MODELS.QWEN3_32B, AI_MODELS.AI_MODELS.QWEN2_5_VL_3B, AI_MODELS.AI_MODELS.QWEN2_5_VL_7B, AI_MODELS.AI_MODELS.QWEN2_5_VL_72B)
+    .default(AI_MODELS.AI_MODELS.QWEN3_0_6B)
     .messages({
       'any.only': 'Model must be one of the supported AI models'
     })

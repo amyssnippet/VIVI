@@ -3,6 +3,7 @@ const path = require('path');
 const { Document } = require('../models');
 const ollamaService = require('./ollamaService');
 const logger = require('../utils/logger');
+const AI_MODELS = require('../utils/constants')
 
 class DocumentService {
   constructor() {
@@ -96,7 +97,7 @@ class DocumentService {
 
       const result = await ollamaService.chat([
         { role: 'user', content: prompt }
-      ], 'qwen3:8b');
+      ], AI_MODELS.AI_MODELS.QWEN3_0_6B);
 
       try {
         return JSON.parse(result.message.content);
