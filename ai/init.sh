@@ -28,10 +28,11 @@ progress() {
 banner
 
 section "Installing Ollama"
-curl -fsSl https://ollama.com/install.sh | sh
+curl -fsSL https://ollama.com/install.sh | sh
 echo -e "${GREEN}Ollama Installed Successfully${RESET}"
 
 section "Starting Ollama Server"
+export OLLAMA_HOST=0.0.0.0:11434
 ollama serve >/dev/null 2>&1 &
 sleep 5
 until curl -s http://127.0.0.1:11434/api/tags >/dev/null; do
@@ -86,3 +87,7 @@ echo -e "${YELLOW}Deleted qwen2.5vl to free space${RESET}"
 
 section "AI Infrastructure Setup Complete"
 echo -e "${CYAN}>>> System Ready. All Models Trained. <<<${RESET}"
+
+section "Access Information"
+SERVER_IP=$(hostname -I | awk '{print $1}')
+echo -e "${GREEN}Ollama is running and accessible at:${RESET} ${CYAN}http://${SERVER_IP}:11434${RESET}"
