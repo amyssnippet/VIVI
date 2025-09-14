@@ -8,7 +8,7 @@ YELLOW="\033[1;33m"
 RESET="\033[0m"
 
 banner() {
-  echo -e "${GREEN}"
+  echo -e "${RED}"
   echo "██    ██ ██ ██    ██ ██ "
   echo "██    ██ ██ ██    ██ ██ "
   echo "██    ██ ██ ██    ██ ██ "
