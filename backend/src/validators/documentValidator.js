@@ -89,7 +89,7 @@ const chatValidator = Joi.object({
     }),
   
   model: Joi.string()
-    .valid(AI_MODELS.AI_MODELS.QWEN3_0_6B, AI_MODELS.AI_MODELS.QWEN3_8B, AI_MODELS.AI_MODELS.QWEN3_32B, AI_MODELS.AI_MODELS.QWEN2_5_VL_3B, AI_MODELS.AI_MODELS.QWEN2_5_VL_7B, AI_MODELS.AI_MODELS.QWEN2_5_VL_72B)
+    .valid(AI_MODELS.AI_MODELS.QWEN3_0_6B, AI_MODELS.AI_MODELS.QWEN2_5_VL_3B)
     .default(AI_MODELS.AI_MODELS.QWEN3_0_6B)
     .messages({
       'any.only': 'Model must be one of the supported AI models'

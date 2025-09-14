@@ -68,8 +68,12 @@ class AuthController {
         }]
       });
 
-      if (!user || !user.isActive) {
-        return res.status(401).json({ error: 'Invalid credentials' });
+      if (!user) {
+        return res.status(401).json({ error: 'User not found' });
+      }
+      
+      if (!user.isActive) {
+        return res.status(401).json({ error: 'User is not Active' });
       }
 
       // Validate password
@@ -150,6 +154,33 @@ class AuthController {
       res.json({ user });
     } catch (error) {
       logger.error('Get profile error:', error);
+      next(error);
+    }
+  }
+
+  async activateUser(req, res, next) {
+    try {
+      const { email } = req.body;
+      const user = await User.findOne({ where: { email } });
+      if(!user) {
+        return res.status(404).json({ error: "User not found" });
+      }
+
+      if(user.isActive) {
+        return res.status(400).json({ error: "User already Activated" });
+      }
+
+      user.isActive = true;
+
+      await user.save();
+
+      res.json({ message: "User activated successfully", user: {
+        id: user.id,
+       email: user.email,
+       isActive: user.isActive 
+      }});
+    } catch (error) {
+      logger.error("User Activation Error:", error);
       next(error);
     }
   }

@@ -20,3 +20,452 @@
 {"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-12 19:30:08"}
 {"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-12 19:30:08"}
 {"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-12 19:30:10"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 14:51:02"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 14:51:02"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 14:51:04"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 14:53:01"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 14:53:01"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 14:53:03"}
+{"level":"info","message":"User registered: amolyadav-inft@atharvacoe.ac.in","service":"ai-assistant-backend","timestamp":"2025-09-14 14:56:29"}
+{"level":"info","message":"User logged in: amolyadav-inft@atharvacoe.ac.in","service":"ai-assistant-backend","timestamp":"2025-09-14 14:57:59"}
+{"level":"info","message":"User logged in: amolyadav-inft@atharvacoe.ac.in","service":"ai-assistant-backend","timestamp":"2025-09-14 14:58:06"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:00:34"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:00:34"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:00:36"}
+{"level":"info","message":"User logged in: amolyadav-inft@atharvacoe.ac.in","service":"ai-assistant-backend","timestamp":"2025-09-14 15:00:45"}
+{"level":"info","message":"User logged in: amolyadav-inft@atharvacoe.ac.in","service":"ai-assistant-backend","timestamp":"2025-09-14 15:01:05"}
+{"level":"info","message":"User logged in: amolyadav-inft@atharvacoe.ac.in","service":"ai-assistant-backend","timestamp":"2025-09-14 15:01:39"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:16:15"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:16:15"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:16:17"}
+{"level":"error","message":"Get profile error: Cannot read properties of undefined (reading 'id')","service":"ai-assistant-backend","stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at getProfile (/home/amol/Desktop/VIVI/backend/src/controllers/authController.js:142:49)\n    at Layer.handle [as handle_request] (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:175:3)\n    at router (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:47:12)","timestamp":"2025-09-14 15:16:21"}
+{"ip":"::1","level":"error","message":"Error occurred: Cannot read properties of undefined (reading 'id')","method":"GET","service":"ai-assistant-backend","stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at getProfile (/home/amol/Desktop/VIVI/backend/src/controllers/authController.js:142:49)\n    at Layer.handle [as handle_request] (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/layer.js:95:5)\n    at /home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:175:3)\n    at router (/home/amol/Desktop/VIVI/backend/node_modules/express/lib/router/index.js:47:12)","timestamp":"2025-09-14 15:16:21","url":"/api/auth/profile","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:16:42"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:16:42"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:16:44"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:20:54"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:20:54"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:20:58"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:20:58"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:21:00"}
+{"level":"info","message":"Organization created: XYZ College by amolyadav-inft@atharvacoe.ac.in","service":"ai-assistant-backend","timestamp":"2025-09-14 15:23:22"}
+{"level":"info","message":"User registered: admin@testcollege.com","service":"ai-assistant-backend","timestamp":"2025-09-14 15:28:19"}
+{"ip":"::1","level":"error","message":"Error occurred: Expected double-quoted property name in JSON at position 87 (line 5 column 1)","method":"POST","service":"ai-assistant-backend","stack":"SyntaxError: Expected double-quoted property name in JSON at position 87 (line 5 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (/home/amol/Desktop/VIVI/backend/node_modules/body-parser/lib/types/json.js:92:19)\n    at /home/amol/Desktop/VIVI/backend/node_modules/body-parser/lib/read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/home/amol/Desktop/VIVI/backend/node_modules/raw-body/index.js:238:16)\n    at done (/home/amol/Desktop/VIVI/backend/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/home/amol/Desktop/VIVI/backend/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-09-14 15:30:33","url":"/api/admin/users/invite","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Email sent successfully: <b36a56ff-40cb-d842-91ae-5aa088195512@gmail.com>","service":"ai-assistant-backend","timestamp":"2025-09-14 15:30:47"}
+{"level":"info","message":"User invited: my8422584@gmail.com by admin@testcollege.com","service":"ai-assistant-backend","timestamp":"2025-09-14 15:30:47"}
+{"level":"info","message":"Email sent successfully: <043cd88f-fa93-3dd8-8345-a19f57515c73@gmail.com>","service":"ai-assistant-backend","timestamp":"2025-09-14 15:35:07"}
+{"level":"info","message":"User invited: amolyadav6125@gmail.com by admin@testcollege.com","service":"ai-assistant-backend","timestamp":"2025-09-14 15:35:07"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:43:27"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:43:27"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:43:30"}
+{"level":"info","message":"User logged in: amolyadav6125@gmail.com","service":"ai-assistant-backend","timestamp":"2025-09-14 15:43:33"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:45:27"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:45:27"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:45:29"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:45:39"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:45:39"}
+{"level":"info","message":"User logged in: amolyadav6125@gmail.com","service":"ai-assistant-backend","timestamp":"2025-09-14 15:45:39"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:45:40"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:51:31"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:51:31"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:51:33"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:51:36"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:51:36"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:51:37"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:52:49"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:52:49"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:52:59"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 15:52:59"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 15:53:01"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:10:39"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:10:39"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:10:41"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:12:01"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:12:01"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:12:04"}
+{"level":"info","message":"Email sent successfully: <a8aa3022-3539-71fd-fbb3-5f1fcbcdb366@gmail.com>","service":"ai-assistant-backend","timestamp":"2025-09-14 16:14:55"}
+{"level":"info","message":"User invited: amol.yadav.778@gmail.com by admin@testcollege.com","service":"ai-assistant-backend","timestamp":"2025-09-14 16:14:55"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:15:54"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:15:54"}
+{"level":"info","message":"User logged in: amol.yadav.778@gmail.com","service":"ai-assistant-backend","timestamp":"2025-09-14 16:15:55"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:15:56"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:23:58"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:23:58"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:13"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:13"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:15"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:21"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:21"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:22"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:22"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:24"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:24"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:25"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:27"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:27"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:30"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:30"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:31"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:44"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:44"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:46"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:54"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:54"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:24:56"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:25:02"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:25:02"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:25:04"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:13"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:13"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:15"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:15"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:16"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:19"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:19"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:44"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:44"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:53:46"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:10"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:10"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:13"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:13"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:13"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:15"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:15"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:18"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:18"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:19"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:19"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:20"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:20"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:22"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:26"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:26"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:28"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:28"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:29"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:31"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:31"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:33"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:33"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:36"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:36"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:37"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:39"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:39"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:41"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:44"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:44"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:46"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:46"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:48"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:53"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:53"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:55"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:55"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:56"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:58"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 16:59:58"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:00"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:00"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:02"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:04"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:04"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:06"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:06"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:07"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:07"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:09"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:31"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:31"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:00:33"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:01"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:01"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:05"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:05"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:07"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:10"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:10"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:12"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:15"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:15"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:17"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:42"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:01:42"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:03:30"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:03:30"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:03:34"}
+{"level":"info","message":"Document uploaded: shodes2 (2).pdf by amol.yadav.778@gmail.com","service":"ai-assistant-backend","timestamp":"2025-09-14 17:33:39"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 17:35:32"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:35:32"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:35:32","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Chat session created: 1 by amol.yadav.778@gmail.com","service":"ai-assistant-backend","timestamp":"2025-09-14 17:42:14"}
+{"level":"error","message":"AI chat error: Cannot read properties of undefined (reading 'getOrganizationalContext')","service":"ai-assistant-backend","stack":"TypeError: Cannot read properties of undefined (reading 'getOrganizationalContext')\n    at chat (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:42:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-14 17:43:44"}
+{"ip":"::1","level":"error","message":"Error occurred: Cannot read properties of undefined (reading 'getOrganizationalContext')","method":"POST","service":"ai-assistant-backend","stack":"TypeError: Cannot read properties of undefined (reading 'getOrganizationalContext')\n    at chat (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:42:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-14 17:43:44","url":"/api/ai/chat","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 17:45:36"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:45:36"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:45:36","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:46:06"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:46:06"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:46:08"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 17:46:10"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:46:10"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:46:10","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:49:21"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:49:21"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:49:22"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 17:49:22"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 17:49:24"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 17:49:35"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:49:35"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:49:35","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 17:49:39"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:49:39"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 17:49:39","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:03:40"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:03:40"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:03:42"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:03:44"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:03:44"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:03:45"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:15"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:15"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:17"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:26"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:26"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:28"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:35"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:35"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:36"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:40"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:40"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:42"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 18:04:56"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 18:04:56"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 18:04:56","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:05:25"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:05:25"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:05:27"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 18:05:30"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 18:05:30"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 18:05:30","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:07:36"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:07:36"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:07:38"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:07:44"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:07:44"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:07:46"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:08:00"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:08:00"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:08:01"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:08:01"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:08:04"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 18:08:26"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 18:08:26"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:126:24)","timestamp":"2025-09-14 18:08:26","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:12"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:12"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:16"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:19"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:19"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:22"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:22"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:25"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:45"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:45"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:47"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:47"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:49"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:53"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:53"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:09:55"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 18:10:01"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:125:24)","timestamp":"2025-09-14 18:10:01"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:125:24)","timestamp":"2025-09-14 18:10:01","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:12:56"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:12:56"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:12:58"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:12:58"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:13:01"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:13:01"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:13:03"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:13:09"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:13:09"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:13:11"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 18:13:21"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:125:24)","timestamp":"2025-09-14 18:13:21"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:125:24)","timestamp":"2025-09-14 18:13:21","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:15:02"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:15:02"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:15:03"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:15:03"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:15:06"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:15:12"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:15:12"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:15:16"}
+{"level":"error","message":"Ollama document processing error:","service":"ai-assistant-backend","timestamp":"2025-09-14 18:17:37"}
+{"level":"error","message":"Process document error: Document processing failed","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:125:24)","timestamp":"2025-09-14 18:17:37"}
+{"ip":"::1","level":"error","message":"Error occurred: Document processing failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Document processing failed\n    at OllamaService.processDocument (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:57:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:125:24)","timestamp":"2025-09-14 18:17:37","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:19:22"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:19:22"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:19:26"}
+{"level":"error","message":"Ollama embedding error:","service":"ai-assistant-backend","timestamp":"2025-09-14 18:19:29"}
+{"level":"error","message":"Process document error: Embedding generation failed","service":"ai-assistant-backend","stack":"Error: Embedding generation failed\n    at OllamaService.generateEmbeddings (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:71:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:131:28)","timestamp":"2025-09-14 18:19:29"}
+{"ip":"::1","level":"error","message":"Error occurred: Embedding generation failed","method":"POST","service":"ai-assistant-backend","stack":"Error: Embedding generation failed\n    at OllamaService.generateEmbeddings (/home/amol/Desktop/VIVI/backend/src/services/ollamaService.js:71:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async processDocument (/home/amol/Desktop/VIVI/backend/src/controllers/aiController.js:131:28)","timestamp":"2025-09-14 18:19:29","url":"/api/ai/documents/process","userAgent":"PostmanRuntime/7.46.0"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:25:11"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:25:11"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:25:13"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:25:17"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 18:25:17"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 18:25:19"}
+{"level":"info","message":"Document processed successfully: df42eeca-8bec-4e92-bbf1-5782fef795d5_1757851419931.pdf","service":"ai-assistant-backend","timestamp":"2025-09-14 18:25:29"}
+{"level":"info","message":"Document uploaded: Screenshot from 2025-09-13 10-48-18.png by amol.yadav.778@gmail.com","service":"ai-assistant-backend","timestamp":"2025-09-14 18:34:48"}
+{"level":"info","message":"Document processed successfully: bc7033f3-936c-4197-8ca2-90bfd1ba3110_1757855088985.png","service":"ai-assistant-backend","timestamp":"2025-09-14 18:35:05"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:14"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:14"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:18"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:21"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:21"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:24"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:24"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:27"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:27"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:30"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:47"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:47"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:06:51"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:07:14"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:07:14"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:07:18"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:07:37"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:07:37"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:07:38"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:07:38"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:07:41"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:08:24"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:08:24"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:09:53"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:09:53"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:09:55"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:09:55"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:09:57"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:18"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:18"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:20"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:24"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:24"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:27"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:34"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:34"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:36"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:39"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:39"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:41"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:46"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:46"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:48"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:52"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:52"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:10:54"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:10"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:10"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:13"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:23"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:23"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:24"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:24"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:27"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:32"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:32"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:46"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:46"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:48"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:52"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:52"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:54"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:54"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:58"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:11:58"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:00"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:02"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:02"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:03"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:03"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:05"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:05"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:09"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:09"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:12"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:12"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:14"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:14"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:16"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:17"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:17"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:19"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:22"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:22"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:24"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:24"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:26"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:32"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:32"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:35"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:35"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:37"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:39"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:39"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:42"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:44"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:44"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:12:48"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:36"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:36"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:42"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:42"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:45"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:49"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:49"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:51"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:52"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:52"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:53"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:53"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:13:56"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:14:02"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:14:02"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:14:04"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:44:18"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:44:18"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:44:20"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:44:20"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:44:23"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:44:33"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:44:33"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:44:36"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:45:19"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:45:19"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:45:21"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:46:22"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:46:22"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:46:24"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:17"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:17"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:19"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:39"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:39"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:41"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:48"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:48"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:50"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:53"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:53"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 19:48:55"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 22:14:47"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 22:14:47"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 22:14:50"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 22:14:50"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 22:14:54"}
+{"level":"info","message":"Database synced successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 22:58:41"}
+{"level":"info","message":"Server running on port 3001","service":"ai-assistant-backend","timestamp":"2025-09-14 22:58:41"}
+{"level":"info","message":"Email service initialized successfully","service":"ai-assistant-backend","timestamp":"2025-09-14 22:58:42"}

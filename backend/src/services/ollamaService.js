@@ -1,7 +1,8 @@
 const axios = require('axios');
+const fs = require('fs');
 const config = require('../config/config');
 const logger = require('../utils/logger');
-const AI_MODELS = require('../utils/constants')
+const AI_MODELS = require('../utils/constants');
 
 class OllamaService {
   constructor() {
@@ -9,7 +10,7 @@ class OllamaService {
     this.timeout = 30000; // 30 seconds
   }
 
-  async chat(messages, model = AI_MODELS.AI_MODELS.QWEN3_0_6B, stream = false) {
+  async chat(messages, model = "qwen3:0.6b", stream = false) {
     try {
       const response = await axios.post(`${this.baseURL}/api/chat`, {
         model: model,
@@ -29,36 +30,46 @@ class OllamaService {
     }
   }
 
-  async processDocument(filePath, model = AI_MODELS.AI_MODELS.QWEN2_5_VL_3B) {
+  async processDocument(filePath, model = "qwen2.5vl:3b") {
     try {
-      const fs = require('fs');
+      // Read the file as base64 assuming it is an image or pdf
       const imageBase64 = fs.readFileSync(filePath, { encoding: 'base64' });
 
-      const response = await axios.post(`${this.baseURL}/api/generate`, {
+      const response = await axios.post(`${this.baseURL}/api/chat`, {
         model: model,
-        prompt: `Analyze this document and extract all key information including:
-        1. Document type and purpose
-        2. Main topics and sections  
-        3. Important facts, figures, and dates
-        4. Key people, organizations, or entities mentioned
-        5. Any questions that could be answered from this content
-        
-        Format the response as structured JSON with clear categories.`,
-        images: [imageBase64],
+        messages: [
+          {
+            role: "user",
+            content: `Please analyze this document. Extract key information in JSON:
+          {
+            "title": "",
+            "summary": "",
+            "key_points": [],
+            "entities": [],
+            "dates": [],
+            "numbers": []
+          }`,
+            images: [imageBase64]
+          }
+        ],
         stream: false,
-        options: {
-          temperature: 0.3
-        }
+        options: {temperature:0.3}
       }, { timeout: 60000 });
 
-      return response.data;
+      const content = response.data.message?.content?.trim() || "";
+
+      return {
+        response: content,
+        raw: response.data
+      };
+      
     } catch (error) {
       logger.error('Ollama document processing error:', error.message);
       throw new Error('Document processing failed');
     }
   }
 
-  async generateEmbeddings(text, model = 'nomic-embed-text') {
+  async generateEmbeddings(text, model = "nomic-embed-text") {
     try {
       const response = await axios.post(`${this.baseURL}/api/embeddings`, {
         model: model,

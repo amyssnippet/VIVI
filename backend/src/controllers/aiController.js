@@ -2,12 +2,11 @@ const { ChatSession, ChatMessage, Document } = require('../models');
 const ollamaService = require('../services/ollamaService');
 const documentService = require('../services/documentService');
 const logger = require('../utils/logger');
-const AI_MODELS = require('../utils/constants')
 
 class AIController {
   async chat(req, res, next) {
     try {
-      const { sessionId, message, language = 'en', model = AI_MODELS.AI_MODELS.QWEN3_0_6B } = req.body;
+      const { sessionId, message, language = 'en', model = "qwen3:0.6b" } = req.body;
 
       // Validate session ownership
       const session = await ChatSession.findOne({
@@ -125,7 +124,7 @@ class AIController {
         // Process document with Qwen2.5-VL
         const result = await ollamaService.processDocument(
           document.filePath, 
-          AI_MODELS.AI_MODELS.QWEN2_5_VL_3B
+          "qwen2.5vl:3b"
         );
 
         // Generate embeddings for the processed content
@@ -136,9 +135,9 @@ class AIController {
         // Update document with processed data
         await document.update({
           processedStatus: 'completed',
-          processedContent: result.response,
+          processedContent: result.response || result.raw.message?.content || null,
           extractedData: { 
-            processing_result: result,
+            processing_result: result.raw,
             processed_at: new Date()
           },
           embeddings: embeddings

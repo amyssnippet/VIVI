@@ -97,7 +97,7 @@ class DocumentService {
 
       const result = await ollamaService.chat([
         { role: 'user', content: prompt }
-      ], AI_MODELS.AI_MODELS.QWEN3_0_6B);
+      ], "qwen3:0.6b");
 
       try {
         return JSON.parse(result.message.content);

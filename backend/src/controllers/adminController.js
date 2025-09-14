@@ -137,7 +137,7 @@ class AdminController {
         lastName,
         role,
         organizationId,
-        isActive: false // User must activate account
+        isActive: true // User must activate account
       });
 
       // Send invitation email
