@@ -85,6 +85,10 @@ echo -e "${YELLOW}Deleted qwen3 to free space${RESET}"
 ollama rm qwen2.5vl
 echo -e "${YELLOW}Deleted qwen2.5vl to free space${RESET}"
 
+echo -e "${GREEN}Downloading embedding model${RESET}"
+ollama pull nomic-embed-text
+echo -e "${CYAN}Downloaded embedding model${RESET}"
+
 section "AI Infrastructure Setup Complete"
 echo -e "${CYAN}>>> System Ready. All Models Trained. <<<${RESET}"
 
