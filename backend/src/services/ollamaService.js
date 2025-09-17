@@ -3,6 +3,7 @@ const fs = require('fs');
 const config = require('../config/config');
 const logger = require('../utils/logger');
 const AI_MODELS = require('../utils/constants');
+const { response } = require('../../server');
 
 class OllamaService {
   constructor() {
@@ -21,11 +22,16 @@ class OllamaService {
           top_p: 0.9,
           top_k: 40
         }
-      }, { timeout: this.timeout });
+      }, { timeout: 600000 });
 
       return response.data;
     } catch (error) {
-      logger.error('Ollama chat error:', error.message);
+      logger.error('Ollama chat error:', {
+        message: error.message,
+        responseData: error.response?.data,
+        status: error.response?.status,
+        headers: error.response?.headers
+      });
       throw new Error('AI service unavailable');
     }
   }
@@ -54,7 +60,7 @@ class OllamaService {
         ],
         stream: false,
         options: {temperature:0.3}
-      }, { timeout: 60000 });
+      }, { timeout: 6000000 });
 
       const content = response.data.message?.content?.trim() || "";
 
